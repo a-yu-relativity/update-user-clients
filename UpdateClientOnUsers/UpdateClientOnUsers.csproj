@@ -35,6 +35,9 @@
     <Reference Include="kCura.Relativity.Client, Version=9.6.104.13, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\kCura.Relativity.Client.9.6.104.13\lib\net462\kCura.Relativity.Client.dll</HintPath>
     </Reference>
+    <Reference Include="Relativity.Services.ServiceProxy">
+      <HintPath>C:\Program Files\kCura Corporation\Relativity SDK\Services API\Client\Relativity.Services.ServiceProxy.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,8 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectionHelper.cs" />
+    <Compile Include="Constants\Enums.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Users.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
