@@ -26,7 +26,6 @@ namespace UpdateClientOnUsers
                 Client = new Client(clientId)
             };
 
-            WriteResultSet<kCura.Relativity.Client.DTOs.User> resultSet = null;
             try
             {
                 proxy.Repositories.User.UpdateSingle(userToUpdate);
